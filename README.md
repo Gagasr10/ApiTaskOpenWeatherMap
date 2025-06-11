@@ -115,6 +115,16 @@ dotnet test
 Make sure the `.env` or `appsettings.json` file is correctly configured.
 
 
+## Documentation & References
+
+- **HTTP Client (RestSharp):**
+  - Official documentation: https://restsharp.dev/
+  - GitHub repository: https://github.com/restsharp/RestSharp
+
+- **Test Framework (NUnit):**
+  - Documentation: https://docs.nunit.org/
+
+
 ## Author
 
 Dragan Stojilkovic  

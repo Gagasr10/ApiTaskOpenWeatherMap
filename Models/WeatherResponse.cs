@@ -7,6 +7,12 @@ public class WeatherResponse
 
     [JsonPropertyName("weather")]
     public WeatherDescription[] Weather { get; set; } = default!;
+
+    [JsonPropertyName("name")]
+    public string Name { get; set; } = string.Empty;
+
+    [JsonPropertyName("sys")]
+    public SysInfo Sys { get; set; } = default!;
 }
 
 public class MainInfo
@@ -22,4 +28,10 @@ public class WeatherDescription
 {
     [JsonPropertyName("description")]
     public string Description { get; set; } = string.Empty;
+}
+
+public class SysInfo
+{
+    [JsonPropertyName("country")]
+    public string Country { get; set; } = string.Empty;
 }
